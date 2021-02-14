@@ -1,2 +1,2 @@
-# AutoClick.py
-AutoClicker feito em python
+# Requisitos
+Possuir o python instalado em seu computador
