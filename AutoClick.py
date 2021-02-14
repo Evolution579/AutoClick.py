@@ -3,7 +3,7 @@ while True:
  import pyautogui, time as tm
 
 
- tempoparainiciar = float(input("Informe o tempo para iniciar! "))
+ tempoparainiciar = float(input("Informe o tempo para iniciar em segundos! "))
     # Puxa o valor da resposta do usuário (Float), e retorna em tempo para o autoclick iniciar
 
 
@@ -12,7 +12,7 @@ while True:
      totalclicks = 1
 
 
- delayclicks = float(input("\nInforme o tempo de cada click! "))
+ delayclicks = float(input("\nInforme o tempo de cada click em segundos! ))
  # Puxa o valor da resposta do usuário (Float), e retorna em delay para cada click
 
 
