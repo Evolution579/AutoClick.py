@@ -7,7 +7,7 @@ while True:
 
 
     totalclicks = int(input("\nInforme o total de clicks! "))
-    if totalclicks >= 0: # Se o total de clicks informado pelo usuário for 0, totalclicks = 1
+    if totalclicks <= 0: # Se o total de clicks informado pelo usuário for 0, totalclicks = 1
         totalclicks = 1
 
 
