@@ -1,2 +1,2 @@
-# Requisitos
-Possuir o python instalado em seu computador
+
+Necessita possuir o python instalado em seu computador
