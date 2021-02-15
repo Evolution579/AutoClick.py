@@ -16,7 +16,7 @@ while True:
 
 
     tm.sleep(tempoparainiciar)
-    for i in range(totalclicks):
+    for clicks in range(totalclicks):
         tm.sleep(delayclicks)
         pyautogui.leftClick()
     break
