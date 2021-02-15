@@ -20,4 +20,5 @@ while True:
     for clicks in range(totalclicks):
         time.sleep(delayclicks)
         pyautogui.leftClick()
-    break
+    else:
+        break
