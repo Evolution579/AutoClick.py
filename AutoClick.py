@@ -1,5 +1,5 @@
 import pyautogui
-import time as tm
+import time
 
 while True:
 
@@ -8,7 +8,7 @@ while True:
 
 
     totalclicks = int(input("\nInforme o total de clicks! "))
-    if totalclicks <= 0: # Se o total de clicks informado pelo usuário for 0, totalclicks = 1
+    if totalclicks <= 0: # Se o total de clicks informado pelo usuário for menor ou igual a 0, totalclicks = 1
         totalclicks = 1
 
 
@@ -16,8 +16,8 @@ while True:
         # Puxa o valor da resposta do usuário (Float), e retorna em delay para cada click
 
 
-    tm.sleep(tempoparainiciar)
+    time.sleep(tempoparainiciar)
     for clicks in range(totalclicks):
-        tm.sleep(delayclicks)
+        time.sleep(delayclicks)
         pyautogui.leftClick()
     break
