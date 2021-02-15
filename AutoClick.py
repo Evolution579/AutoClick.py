@@ -1,4 +1,5 @@
-import pyautogui, time as tm
+import pyautogui
+import time as tm
 
 while True:
 
