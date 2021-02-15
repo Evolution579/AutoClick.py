@@ -3,7 +3,7 @@ import time
 
 while True:
 
-    tempoparainiciar = float(input("Informe o tempo para iniciar em segundos! "))
+    tempoparainiciar = float(input("\nInforme o tempo para iniciar em segundos! "))
         # Puxa o valor da resposta do usuário (Float), e retorna em tempo para o autoclick iniciar
 
 
@@ -20,5 +20,3 @@ while True:
     for clicks in range(totalclicks):
         time.sleep(delayclicks)
         pyautogui.leftClick()
-    else:
-        break
